@@ -1,6 +1,9 @@
 {
   "colors": {
     "$type": "color",
+    "attributes": {
+      "category": "color"
+    },
     "black": {
       "$value": "#000000"
     },
