@@ -1,0 +1,67 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "build/compose/",
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "StyleDictionaryColor",
+            "packageName": "StyleDictionaryColor"
+          },
+          "filter": {
+            "$type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.kt",
+          "format": "compose/object",
+          "options": {
+            "className": "StyleDictionarySize",
+            "packageName": "StyleDictionarySize",
+            "type": "float"
+          },
+          "filter": {
+            "$type": "dimension"
+          }
+        }
+      ]
+    },
+    "ios": {
+      "transformGroup": "ios-swift-separate",
+      "buildPath": "build/ios-swift/",
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.swift",
+          "format": "ios-swift/class.swift",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.swift",
+          "format": "ios-swift/class.swift",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryFont.swift",
+          "format": "ios-swift/class.swift",
+          "filter": {
+            "attributes": {
+              "category": "font"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
