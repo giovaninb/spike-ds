@@ -15,50 +15,41 @@
           "filter": {
             "$type": "color"
           }
-        },
-        {
-          "destination": "StyleDictionarySize.kt",
-          "format": "compose/object",
-          "options": {
-            "className": "StyleDictionarySize",
-            "packageName": "StyleDictionarySize",
-            "type": "float"
-          },
-          "filter": {
-            "$type": "dimension"
-          }
         }
       ]
     },
-    "ios": {
+    "iosUIKit": {
       "transformGroup": "ios-swift-separate",
       "buildPath": "build/ios-swift/",
       "files": [
         {
-          "destination": "StyleDictionaryColor.swift",
+          "destination": "StyleDictionaryColorUIKit.swift",
           "format": "ios-swift/class.swift",
           "filter": {
             "attributes": {
-              "category": "color"
+              "uikitType": "UIColorSwift"
             }
+          },
+          "options": {
+            "className": "StyleDictionaryColorUIKit"
           }
-        },
+        }
+      ]
+    },
+    "iosSwiftUI": {
+      "transformGroup": "ios-swift-separate",
+      "buildPath": "build/ios-swift/",
+      "files": [
         {
-          "destination": "StyleDictionarySize.swift",
-          "format": "ios-swift/class.swift",
+          "destination": "StyleDictionaryColorSwiftUI.swift",
+          "format": "ios-swift-swiftui/class.swift",
           "filter": {
             "attributes": {
-              "category": "size"
+              "swiftuiType": "ColorSwiftUI"
             }
-          }
-        },
-        {
-          "destination": "StyleDictionaryFont.swift",
-          "format": "ios-swift/class.swift",
-          "filter": {
-            "attributes": {
-              "category": "font"
-            }
+          },
+          "options": {
+            "className": "StyleDictionaryColorSwiftUI"
           }
         }
       ]

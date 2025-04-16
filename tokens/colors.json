@@ -2,69 +2,102 @@
   "colors": {
     "black": {
       "$value": "#000000",
+      "$type": "color",
       "attributes": {
-        "category": "color"
+        "category": "color",
+        "swiftuiType": "ColorSwiftUI",
+        "uikitType": "UIColorSwift"
       }
     },
     "white": {
       "$value": "#ffffff",
+      "$type": "color",
       "attributes": {
-        "category": "color"
+        "category": "color",
+        "swiftuiType": "ColorSwiftUI",
+        "uikitType": "UIColorSwift"
       }
     },
     "orange": {
       "100": {
         "$value": "#fffaf0",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "200": {
         "$value": "#feebc8",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "300": {
         "$value": "#fbd38d",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "400": {
         "$value": "#f6ad55",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "500": {
         "$value": "#ed8936",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "600": {
         "$value": "#dd6b20",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "700": {
         "$value": "#c05621",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "800": {
         "$value": "#9c4221",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       },
       "900": {
         "$value": "#7b341e",
+        "$type": "color",
         "attributes": {
-          "category": "color"
+          "category": "color",
+          "swiftuiType": "ColorSwiftUI",
+          "uikitType": "UIColorSwift"
         }
       }
     }
