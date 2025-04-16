@@ -4,55 +4,43 @@
     "compose": {
       "transformGroup": "compose",
       "buildPath": "build/compose/",
-      "files": [
-        {
-          "destination": "StyleDictionaryColor.kt",
-          "format": "compose/object",
-          "options": {
-            "className": "StyleDictionaryColor",
-            "packageName": "StyleDictionaryColor"
-          },
-          "filter": {
-            "$type": "color"
-          }
+      "files": [{
+        "destination": "StyleDictionaryColor.kt",
+        "format": "compose/object",
+        "options": {
+          "className": "StyleDictionaryColor",
+          "packageName": "StyleDictionaryColor"
+        },
+        "filter": {
+          "type": "color"
         }
-      ]
+      }]
     },
     "iosUIKit": {
       "transformGroup": "ios-swift-separate",
       "buildPath": "build/ios-swift/",
-      "files": [
-        {
-          "destination": "StyleDictionaryColorUIKit.swift",
-          "format": "ios-swift/class.swift",
-          "filter": {
-            "attributes": {
-              "uikitType": "UIColorSwift"
-            }
-          },
-          "options": {
-            "className": "StyleDictionaryColorUIKit"
-          }
+      "files": [{
+        "destination": "SDColorUIKit.swift",
+        "format": "ios-swift/class.swift",
+        "options": { "className": "SDColorUIKit" },
+        "filter": {
+          "type": "color",
+          "attributes": { "uikitType": "UIColorSwift" }
         }
-      ]
+      }]
     },
     "iosSwiftUI": {
-      "transformGroup": "ios-swift-separate",
+      "transformGroup": "swiftui",
       "buildPath": "build/ios-swift/",
-      "files": [
-        {
-          "destination": "StyleDictionaryColorSwiftUI.swift",
-          "format": "ios-swift-swiftui/class.swift",
-          "filter": {
-            "attributes": {
-              "swiftuiType": "ColorSwiftUI"
-            }
-          },
-          "options": {
-            "className": "StyleDictionaryColorSwiftUI"
-          }
+      "files": [{
+        "destination": "SDColorSwiftUI.swift",
+        "format": "ios-swift-swiftui/class.swift",
+        "options": { "className": "SDColorSwiftUI" },
+        "filter": {
+          "type": "color",
+          "attributes": { "swiftuiType": "ColorSwiftUI" }
         }
-      ]
+      }]
     }
   }
 }
