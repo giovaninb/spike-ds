@@ -1,6 +1,6 @@
 
 //
-// StyleDictionaryColorUIKit.swift
+// SDColorUIKit.swift
 //
 
 // Do not edit directly, this file was auto-generated.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class StyleDictionaryColorUIKit {
+public class SDColorUIKit {
     public static let colorsBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorsOrange100 = UIColor(red: 1.000, green: 0.980, blue: 0.941, alpha: 1)
     public static let colorsOrange200 = UIColor(red: 0.996, green: 0.922, blue: 0.784, alpha: 1)

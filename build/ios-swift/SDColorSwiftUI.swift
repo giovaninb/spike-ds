@@ -1,11 +1,13 @@
 
 //
-// Do not edit directly – this file was generated automatically.
+// SDColorSwiftUI.swift
 //
+
+// Do not edit directly – this file was auto-generated.
 
 import SwiftUI
 
-public struct StyleDictionaryColorSwiftUI {
+public struct SDColorSwiftUI {
     public static let colorsBlack = Color(red: 0.000, green: 0.000, blue: 0.000, opacity: 1.000)
     public static let colorsWhite = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1.000)
     public static let colorsOrange100 = Color(red: 1.000, green: 0.980, blue: 0.941, opacity: 1.000)

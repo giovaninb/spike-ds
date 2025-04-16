@@ -2,8 +2,8 @@
 
 function template({ dictionary, options }) {
   return `\n//
-// Do not edit directly – this file was generated automatically.
-//\n
+// ${options.className}.swift
+//\n\n// Do not edit directly – this file was auto-generated.\n
 import SwiftUI
 
 public struct ${options.className} {

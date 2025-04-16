@@ -5,11 +5,11 @@
       "transformGroup": "compose",
       "buildPath": "build/compose/",
       "files": [{
-        "destination": "StyleDictionaryColor.kt",
+        "destination": "SDColor.kt",
         "format": "compose/object",
         "options": {
-          "className": "StyleDictionaryColor",
-          "packageName": "StyleDictionaryColor"
+          "className": "SDColor",
+          "packageName": "SDColor"
         },
         "filter": {
           "type": "color"

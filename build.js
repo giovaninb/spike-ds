@@ -59,8 +59,6 @@ StyleDictionary.registerFormat({
   format: swiftuiFormatter
 });
 
-// 4) Load config.json and build all
-//const sd = new StyleDictionary(__dirname + "/config.json");
 // 4) Load config.json as an object and build all
 const sd = new StyleDictionary(config);
 await sd.cleanAllPlatforms();

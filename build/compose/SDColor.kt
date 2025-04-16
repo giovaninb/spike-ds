@@ -4,12 +4,12 @@
 
 
 
-package StyleDictionaryColor
+package SDColor
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
-object StyleDictionaryColor {
+object SDColor {
   val colorsBlack = Color(0xff000000)
   val colorsOrange100 = Color(0xfffffaf0)
   val colorsOrange200 = Color(0xfffeebc8)
