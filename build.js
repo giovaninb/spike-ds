@@ -39,7 +39,7 @@ StyleDictionary.registerTransform({
     const b =  (intVal        & 0xff) / 255;
     const f = n => n.toFixed(3);
 
-    return `Color(red: ${f(r)}, green: ${f(g)}, blue: ${f(b)}, opacity: ${f(a)})`;
+    return `Color(.sRGB, red: ${f(r)}, green: ${f(g)}, blue: ${f(b)}, opacity: ${f(a)})`;
   }
 });
 
